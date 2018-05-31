@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>VR REMOTE</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+    </head>
+    <body style="overflow-y: hidden; background-color: black; background-size: auto 100%; background-position: center center; background-repeat: no-repeat;">
+        <div style="opacity: 0; transition: opacity .3s; transform: translate(-50%, -50%); position: absolute; left: 50%; top: 50%; width: 50px; height: 50px; background: lightgreen; border-radius: 100%" id="pointer"></div>
+        <div id="qrcode" style="padding: 40px; background: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="display.js"></script>
+</html>

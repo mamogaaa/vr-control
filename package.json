@@ -1,0 +1,13 @@
+{
+  "name": "vr-control",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nordikafiles/vr-control",
+  "author": "nordikafiles <maksiik@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "coffeescript": "^2.3.1",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
